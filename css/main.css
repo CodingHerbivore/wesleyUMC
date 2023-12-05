@@ -1,0 +1,326 @@
+﻿@font-face {
+	font-family: 'Public Sans Regular';
+	src: url(/fonts/PublicSans-Regular.ttf);
+}
+@font-face {
+	font-family: 'Public Sans Light';
+	src: url(/fonts/PublicSans-Light.ttf);
+}
+@font-face {
+	font-family: 'Public Sans Thin Italic';
+	src: url(/fonts/PublicSans-ThinItalic.ttf);
+}
+@font-face {
+	font-family: 'Public Sans Extra Bold';
+	src: url(/fonts/PublicSans-ExtraBold.ttf);
+}
+@font-face {
+	font-family: 'Public Sans Extra Light';
+	src: url(/fonts/PublicSans-ExtraLight.ttf);
+}
+@font-face {
+	font-family: 'Public Sans Thin';
+	src: url(/fonts/PublicSans-Thin.ttf);
+}
+html {
+	scroll-behavior: smooth;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+body {
+	background-color: #202020;
+	margin: auto;
+	z-index: 3;
+	font-family: 'Public Sans Regular', Arial, Helvetica, sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+#mainBody {
+	background-color: #FFFFFF;
+}
+/*#header {
+	background-color: #3B3B3B;
+	margin: auto;
+	width: 950px;
+	height: 110px;	
+}*/
+#touch {
+	display: none;
+}
+#phoneHeader, #touchToNav, #touchText {
+	text-align: center;
+	display: none;
+}
+.logo {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.rightHead {
+	width: 650px;
+	float: left;
+	text-align: right;
+}
+#topimage {
+	padding-left: 25px;
+}
+/*#pageContainer {
+	z-index: 4;
+	min-width: 600px;
+	width: 950px;
+	margin: auto;
+    background-color:white;
+	/*background-color:#F7F6F6;
+	/*background-color: rgb(224, 224, 224);
+}*/
+h1 {
+	font-family: 'Public Sans Thin', Arial, Helvetica, sans-serif;
+	color: #424242;
+	font-size: 2em;
+	margin-bottom: 5%;
+}
+#leftColumn {
+	margin: 0px 0px 10px 4px;
+	text-align:center;
+	width: 150px;
+	height: auto;
+	float: left;
+}
+.center {
+	text-align: center;
+}
+#churchPhoto{
+	width:700px;
+	height: 464px;
+	background: url(/images/sanctuary0005.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+/* Navigational Elements */
+#topNav {
+	background-color: rgb(131, 2, 6);
+	/*background-color: rgb(163,0,6);*/
+	color:white;
+}
+/* Override Boostrap's semi-transparent nav links */
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255,255,255,1);
+}
+.navbar-expand-md .navbar-nav .nav-link {
+	font-size: 1.1rem;
+	padding-right: .9rem;
+	padding-left: .9rem;
+}
+.nav-link:hover {
+	padding-bottom: .3rem;
+	border-bottom: .2rem solid white;
+}
+#mainContent {
+	padding: 5px;
+	margin-left: 160px;
+	margin-right: 10px;
+	min-width: 500px;
+	clear: none;
+	margin-top: 0px;
+}
+.col-12 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.welcome-text {
+	height: 500px;
+	background-image: url(/images/service-banner.jpg);
+  	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#invite {
+	padding: 10%;
+}
+#invite h1, #invite span {
+	color: white;
+}
+#invite h1 {
+	font-size: 7rem;
+	font-weight: 100;
+	margin-bottom: 1%;
+}
+#invite span {
+	font-size: 1.5rem;
+	font-family: 'Public Sans Regular', Arial, Helvetica, sans-serif;
+	margin-top: 0;
+	margin-bottom: .5rem;
+	line-height: 1.2;
+}
+@media screen and (max-width: 550px){
+    #invite h1 {
+        font-size: 6rem; 
+    }
+    #invite span {
+        font-size: 1.2rem;
+    }
+}
+#invite span::after, #invite span::before {
+	box-sizing: border-box;
+}
+.content {
+	padding: 5%;
+}
+.second {
+	background-color: #F7F6F6;
+}
+/* SOCIAL */
+.sideBySide {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.sideBySide div {
+	max-width: 30%;
+}
+.sideBySide div img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.img-column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#gmaps {
+	margin-bottom: 5%;
+}
+/* Footer styles */
+#footer {
+	background-color: #808080;
+	color: white;
+	padding-top: 2%;
+}
+#footer h2 {
+	color: white;
+	margin: 10px;
+	font-size: 1em;
+}
+.padd {
+	padding-bottom: 2%;
+}
+.facebook a{
+	color: white;
+}
+#contactInfo {
+	text-align:center;
+	font-size:large;
+	margin-bottom: 10px;
+}
+.copyright {
+	font-size: small;
+}
+h4 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	color: rgb(163,0,6);
+}
+h2 {
+	font-family: 'Public Sans Extra Light', Geneva, Tahoma, sans-serif;
+	letter-spacing: 0.1em;
+	color: rgb(163,0,6);
+	margin-bottom: 5%;
+	text-align: center;
+	text-transform: uppercase;
+}
+h3 {
+	font-family: 'Public Sans Extra Light', Arial, Helvetica, sans-serif;
+	color: #343434;	
+	text-decoration: none;
+}
+#directions h3 {
+	margin-bottom: 5%;
+}
+#pastorLarge {
+	float: right;
+	margin: 5px;
+}
+.frontPageImg {
+	width: 400px;
+	height: 267px;
+	float: right;
+	margin: 5px;
+}
+.callIcon {
+	display: none;
+}
+.Phone {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.Phone link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.Phone visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.Phone hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.Phone active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.contactPhone {
+	color: #000000;
+	text-decoration: none;
+}
+.contactPhone link {
+	color: #000000;
+	text-decoration: none;
+}
+.contactPhone visited {
+	color: #000000;
+	text-decoration: none;
+}
+.contactPhone hover {
+	color: #000000;
+	text-decoration: none;
+}
+.contactPhone active {
+	color: #000000;
+	text-decoration: none;
+}
+.whois {
+	font-family: 'Public Sans Thin Italic', Arial, Helvetica, sans-serif;
+}
+#calendar {
+	text-align: center;
+	padding-top: 10px;
+}
+a img {
+	border:none;
+}
+/* Font Classes */
+.servicead {
+	font-size: 17px;
+    color: white;
+	font-weight: normal;
+	text-decoration: none;
+}
+#invite {
+	font-size: 18px;
+	font-weight: bold;
+}
+.FrontPageImage {
+	float: right;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");

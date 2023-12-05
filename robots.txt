@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /testing/
+Sitemap: https://www.wesleyumcsheboygan.com/sitemap.xml
+
+Redirect 301 /directions-to-wesley-umc.php /index.php
+Redirect 301 /disabled-guest-information.php /index.php
