@@ -218,6 +218,7 @@ h1 {
 	text-align:center;
 	font-size:large;
 	margin-bottom: 10px;
+	line-height: 2rem;
 }
 .copyright {
 	font-size: small;
@@ -256,23 +257,28 @@ h3 {
 .callIcon {
 	display: none;
 }
-.Phone {
+.Phone,
+.Email {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-.Phone link {
+.Phone link,
+.Email link {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-.Phone visited {
+.Phone visited,
+.Email visited {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-.Phone hover {
+.Phone hover,
+.Email hover {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-.Phone active {
+.Phone active,
+.Email hover {
 	color: #FFFFFF;
 	text-decoration: none;
 }

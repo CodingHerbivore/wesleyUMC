@@ -15,8 +15,8 @@
     <div class="col-12">
       <div class="content"> 
         <h1>Contact Wesley UMC</h1>
-        <p>Our main phone number at Wesley is <a class="contactPhone" href="tel:19204584889"><span itemprop="telephone">(920)-458-4889</span></a>.</p>
-        <p>You may also contact Wesley United Methodist Church by email. Our email address is <a href="mailto:wesleyumcsheboygan@gmail.com">wesleyumcsheboygan@gmail.com</a></p>
+        <p>Our main phone number at Wesley is <a href="tel:19204584889"><span itemprop="telephone">(920) 458-4889</span></a>.</p>
+        <p>You may also contact Wesley United Methodist Church by email. Our email address is <a href="mailto:wesleyumcsheboygan@yahoo.com">wesleyumcsheboygan@yahoo.com</a></p>
       </div>
     </div>
 

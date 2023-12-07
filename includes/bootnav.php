@@ -5,10 +5,10 @@
         </button>    
         <div class="collapse navbar-collapse justify-content-center" id="navbarDiv">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link active" href="https://www.wesleyumcsheboygan.com/testing" title="Go to the Wesley United Methodist Church Home Page">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#social" title="Wesley UMC's Social Media Profiles">Social Media</a></li>
-                <li class="nav-item"><a class="nav-link" href="#directions" title="Directions to Wesley United Methodist Church">Directions</a></li>
-                <li class="nav-item"><a class="nav-link" href="#disabled" title="Information for disabled visitors">Disabled Guests</a></li>
+                <li class="nav-item"><a class="nav-link active" href="index.php" title="Go to the Wesley United Methodist Church Home Page">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php#social" title="Wesley UMC's Social Media Profiles">Social Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php#directions" title="Directions to Wesley United Methodist Church">Directions</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php#disabled" title="Information for disabled visitors">Disabled Guests</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact-wesley-umc.php" title="Contact Wesley United Methodist Church">Contact Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="photos-of-wesley-umc.php" title="Photos of Wesley United Methodist Church">Photos</a></li>
                 <li class="nav-item"><a class="nav-link" href="methodist-church-links.php" title="Links to Other UMC Churches Around the Area">Links</a></li>

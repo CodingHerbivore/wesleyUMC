@@ -3,8 +3,13 @@
 	<div class="col-12 padd center">
 		<!--<div class="fb-like" data-href="https://www.facebook.com/pages/Wesley-United-Methodist-Church/115765415113127" data-width="400" data-layout="button" data-action="like" data-size="large" data-share="true"></div></br>-->
 		<h2>Wesley United Methodist Church</h2>
-		<address id="contactInfo"><a class="Phone" href="tel:19204584889"><i class="bi-telephone"></i> (920)-458-4889</a><br/>
-		<span itemprop="address">823 Union Ave, Sheboygan, WI 53081</span></address>
+		<address>
+			<span itemprop="address">823 Union Ave, Sheboygan, WI 53081</span>
+		</address>
+		<div id="contactInfo">
+			<a class="Email" href="mailto:wesleyumcsheboygan@yahoo.com"><i class="bi bi-envelope"></i> wesleyumcsheboygan@yahoo.com</a><br/>
+			<a class="Phone" href="tel:19204584889"><i class="bi-telephone"></i> (920)-458-4889</a><br/>
+		</div>
 	</div>
 	<div class="col-12 center">
 		<span class="copyright">Copyright <?php echo date("Y") ?> Wesley United Methodist Church | Developed and Maintained by <a href="http://www.andrewbullis.us">Andrew Bullis</a> | Cross and Flame Logo Copyright United Methodist Church</span>
