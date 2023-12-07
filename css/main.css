@@ -262,44 +262,24 @@ h3 {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-.Phone link,
-.Email link {
+.Phone:link,
+.Email:link {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-.Phone visited,
-.Email visited {
+.Phone:visited,
+.Email:visited {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-.Phone hover,
-.Email hover {
+.Phone:hover,
+.Email:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.Phone:active,
+.Email:active {
 	color: #FFFFFF;
-	text-decoration: none;
-}
-.Phone active,
-.Email hover {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-.contactPhone {
-	color: #000000;
-	text-decoration: none;
-}
-.contactPhone link {
-	color: #000000;
-	text-decoration: none;
-}
-.contactPhone visited {
-	color: #000000;
-	text-decoration: none;
-}
-.contactPhone hover {
-	color: #000000;
-	text-decoration: none;
-}
-.contactPhone active {
-	color: #000000;
 	text-decoration: none;
 }
 .whois {
